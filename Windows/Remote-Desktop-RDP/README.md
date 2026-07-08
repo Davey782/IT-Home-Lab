@@ -41,15 +41,19 @@ Enabled the Windows Firewall rules for Remote Desktop.
 ## Commands Used
 
 ```bash
-ping -c
-```
-
-```bash
 ipconfig
 ```
 
 ```bash
-xfreerdp /v:<IP> /u:<username> /p:<password> /clipboard /dynamic-resolution
+ping -c 4
+```
+
+```bash
+ip a
+```
+
+```bash
+xfreerdp /v:<IP> /u:<username> /p:<password> /cert:ignore /size:1920x1080
 ```
 
 ```bash
