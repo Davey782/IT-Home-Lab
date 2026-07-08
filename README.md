@@ -6,7 +6,7 @@ This repository documents hands-on labs, troubleshooting exercises, and projects
 
 ## Goals
 
-- Improve Windows administration skills
+- Improve Windows and Linux administration skills
 - Practice troubleshooting
 - Learn networking concepts
 - Document everything I learn
