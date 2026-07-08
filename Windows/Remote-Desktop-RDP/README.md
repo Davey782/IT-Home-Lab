@@ -20,8 +20,8 @@ Remotely connect from a Kali Linux virtual machine to a Windows 11 virtual machi
 1. Enabled Remote Desktop on Windows.
 2. Verified the user account was allowed to access the computer through Remote Desktop.
 3. Found the windows IP address.
-4. Connected from kali using xfreerdp.
-5. Troubleshooted a firewall issue.
+4. Troubleshooted firewall issue.
+5. Connected from kali using xfreerdp.
 6. Verified successful remote administration.
 
 ---
@@ -36,7 +36,7 @@ Windows Defender Firewall blocked inbound RDP traffic.
 
 ### Solution
 
-Enabled the Windows Firewall rules for Remote Desktop.
+Enabled the built-in 'Remote Desktop' rule group in Windows Defender Firewall.
 
 ---
 
