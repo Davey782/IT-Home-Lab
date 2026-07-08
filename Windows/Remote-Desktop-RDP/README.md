@@ -84,10 +84,10 @@ query user
 
 The following screenshots show the key stages of configuring and verifying the RDP connection.
 
-![Enable Remote Desktop and find my ip](configure-rdp.png)
+![Enable Remote Desktop and find my IP](screenshots/configure-rdp.png)
 
-![Connecting to machine](connecting-rdp.png)
+![Connecting to machine](screenshots/connecting-rdp.png)
 
-![Troubleshooting firewall problem](firewall-issue.png)
+![Troubleshooting firewall problem](screenshots/firewall-issue.png)
 
-![Successfull rdp connection](successful-rdp-session.png)
+![Successful RDP connection](screenshots/successful-rdp-session.png)
