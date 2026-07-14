@@ -65,3 +65,18 @@ Remove-LocalUser -Name "Fedora"
 The following screenshots show the key stages of user and group management through both the GUI and PowerShell.
  
 **GUI**
+
+![](screenshots/gui-create-user.png)
+
+![](screenshots/gui-proof.png)
+
+![](screenshots/group-added.png)
+
+**PowerShell**
+
+![](screenshots/create-user.png)
+
+![](screenshots/group-admin.png)
+
+![](screenshots/del-user.png)
+
