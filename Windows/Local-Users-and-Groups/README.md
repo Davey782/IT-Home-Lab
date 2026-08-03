@@ -3,7 +3,6 @@
 Create, manage, and remove local users and groups on Windows 11 using both the GUI (Computer Management) and the command line (PowerShell), and verify permission boundaries between standard and administrator accounts.
 ---
 ## Environment
-- VMware Workstation
 - Windows 11
 - Computer Management (lusrmgr.msc)
 - PowerShell
