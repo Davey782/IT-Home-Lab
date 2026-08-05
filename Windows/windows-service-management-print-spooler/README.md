@@ -1,5 +1,5 @@
 # Windows Service Management — Print Spooler Startup Recovery
-### Objective
+## Objective
 Diagnose and fix a Windows service misconfigured with the wrong startup type, using both the GUI (Services) and the command line (PowerShell), and verify the fix through Event Viewer.
 ---
 ## Environment
