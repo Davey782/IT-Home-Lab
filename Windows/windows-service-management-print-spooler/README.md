@@ -1,6 +1,6 @@
 # Windows Service Management — Print Spooler Startup Recovery
-## Objective
-**Diagnose and fix a Windows service misconfigured with the wrong startup type, using both the GUI (Services) and the command line (PowerShell), and verify the fix through Event Viewer.**
+### Objective
+Diagnose and fix a Windows service misconfigured with the wrong startup type, using both the GUI (Services) and the command line (PowerShell), and verify the fix through Event Viewer.
 ---
 ## Environment
 - VMware Workstation
@@ -55,10 +55,14 @@ The following screenshots show the key stages of diagnosing and fixing the Print
 
 **GUI**
 ![Broken state - Manual startup, Stopped](screenshots/broken-state.png)
+
 ![Fixed state - Automatic startup, Running](screenshots/fixed-state.png)
+
 ![Filtering Event Viewer by Service Control Manager](screenshots/filtering.png)
+
 ![Event Viewer verification - Event ID 7040](screenshots/verifying.png)
 
 **PowerShell**
 ![PowerShell fix applied](screenshots/cli-services.png)
+
 ![PowerShell Event Viewer verification](screenshots/cli-verify.png)
