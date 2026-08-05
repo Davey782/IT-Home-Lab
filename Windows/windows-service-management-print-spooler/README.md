@@ -9,9 +9,6 @@ Diagnose and fix a Windows service misconfigured with the wrong startup type, us
 - PowerShell
 - Event Viewer (eventvwr.msc)
 ---
-## Scenario
-Print Spooler was set to manual startup instead of automatic, meaning it would not start on its own after a reboot — a common cause of recurring "printer not working" tickets. "The fix was to change the startup type back to Automatic and verify that Windows recorded the change."
----
 ## Steps
 ### GUI (Services)
 1. Opened Print Spooler Properties and confirmed the broken state: Startup type manual, service status Stopped.
