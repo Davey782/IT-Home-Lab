@@ -14,7 +14,7 @@
 1. Opened Print Spooler Properties and confirmed the broken state: Startup type manual, service status Stopped.
 2. Changed Startup type to automatic, applied, and started the service.
 3. Confirmed the fixed state: Startup type automatic, service status Running.
-4. Verified the change was logged in Event viewer (System log, Service Control Manager source, event ID 7040).
+4. Verified the change was logged in Event viewer (System log, Filtering: Service Control Manager source, event ID 7040).
 
 ### CLI (PowerShell)
 1. Reverted the service to Manual/Stopped so the fix would demonstrate a real change.
