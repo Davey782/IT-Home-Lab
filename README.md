@@ -15,6 +15,7 @@ This repository documents hands-on labs, troubleshooting exercises, and projects
 
 - Windows Remote Desktop (RDP)
 - Windows Firewall Troubleshooting
+- Windows Service Managment
 
 ## Planned Projects
 
